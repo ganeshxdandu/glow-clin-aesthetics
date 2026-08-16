@@ -82,7 +82,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => { e.preventDefault(); handleNavClick(link.href); }}
-                className="nav-link text-sm"
+                className="nav-link text-sm tracking-tight"
                 style={{ color: scrolled ? "var(--text-secondary)" : "rgba(250, 247, 244, 0.85)" }}
               >
                 {link.label}
@@ -138,7 +138,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.06, duration: 0.3 }}
                   onClick={(e) => { e.preventDefault(); handleNavClick(link.href); }}
-                  className="text-3xl font-light py-3 border-b transition-colors duration-200 hover:opacity-60"
+                  className="text-3xl font-light tracking-tight py-3 border-b transition-colors duration-200 hover:opacity-60"
                   style={{
                     fontFamily: "'Cormorant Garamond', serif",
                     color: "var(--text-primary)",
