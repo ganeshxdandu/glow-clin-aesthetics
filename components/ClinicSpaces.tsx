@@ -168,7 +168,7 @@ export default function ClinicSpaces() {
                                     letterSpacing: "0.18em",
                                 }}
                             >
-                                Consultation
+                                Consultation Room
                             </span>
                         </div>
                     </motion.div>
