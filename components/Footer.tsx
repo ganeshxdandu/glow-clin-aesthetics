@@ -1,6 +1,7 @@
 "use client";
 
 import { MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 function InstagramIcon({ size = 14 }: { size?: number }) {
   return (
@@ -46,22 +47,20 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <div
-                className="text-2xl font-light"
-                style={{ fontFamily: "'Cormorant Garamond', serif", color: "#FAF7F4" }}
+              <a
+                href="#hero"
+                onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                className="inline-block transition-opacity duration-200 hover:opacity-80"
               >
-                Glow Clin
-              </div>
-              <div
-                className="text-xs tracking-widest uppercase"
-                style={{
-                  color: "var(--accent-gold)",
-                  fontFamily: "'DM Sans', sans-serif",
-                  letterSpacing: "0.2em",
-                }}
-              >
-                Aesthetic
-              </div>
+                <Image
+                  src="/images/logo.png"
+                  alt="Glow Clin Aesthetic"
+                  width={120}
+                  height={40}
+                  className="h-9 lg:h-10 w-auto object-contain"
+                  style={{ filter: "brightness(0) invert(1)" }}
+                />
+              </a>
             </div>
             <p
               className="text-xs leading-relaxed"
