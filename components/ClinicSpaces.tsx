@@ -209,7 +209,7 @@ export default function ClinicSpaces() {
                                     letterSpacing: "0.18em",
                                 }}
                             >
-                                Treatment
+                                Treatment Suite
                             </span>
                         </div>
                     </motion.div>
