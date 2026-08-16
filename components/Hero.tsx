@@ -138,7 +138,7 @@ export default function Hero() {
                                     .querySelector("#treatments")
                                     ?.scrollIntoView({ behavior: "smooth" });
                             }}
-                            className="group inline-flex items-center gap-3 px-8 py-4 border border-white/20 text-white rounded-full text-xs tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-500 backdrop-blur-sm"
+                            className="group inline-flex items-center gap-3 px-8 py-4 border border-white/20 text-white rounded-full text-xs tracking-tight uppercase hover:bg-white hover:text-black transition-all duration-500 backdrop-blur-sm"
                             style={{
                                 fontFamily: "'DM Sans', sans-serif",
                                 borderColor: "rgba(250, 247, 244, 0.25)",

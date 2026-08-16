@@ -36,6 +36,7 @@ export default function MobileBookingBar() {
           color: "var(--text-secondary)",
           borderColor: "var(--border)",
           fontFamily: "'DM Sans', sans-serif",
+          letterSpacing: "-0.025em",
         }}
       >
         <Phone size={16} style={{ color: "var(--accent-gold)" }} />
@@ -51,7 +52,7 @@ export default function MobileBookingBar() {
           backgroundColor: "var(--bg-dark)",
           color: "var(--accent-gold-light)",
           fontFamily: "'DM Sans', sans-serif",
-          letterSpacing: "0.06em",
+          letterSpacing: "-0.025em",
         }}
       >
         <MessageCircle size={16} />

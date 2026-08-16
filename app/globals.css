@@ -97,12 +97,13 @@
   .btn-primary {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     padding: 0.875rem 1.75rem;
     font-size: 0.75rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.12em;
+    letter-spacing: -0.025em;
     text-transform: uppercase;
     transition: all 0.3s ease;
     background-color: var(--bg-dark);
@@ -117,12 +118,13 @@
   .btn-secondary {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     padding: 0.875rem 1.75rem;
     font-size: 0.75rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.12em;
+    letter-spacing: -0.025em;
     text-transform: uppercase;
     transition: all 0.3s ease;
     background-color: transparent;
@@ -138,12 +140,13 @@
   .btn-gold {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     padding: 0.875rem 1.75rem;
     font-size: 0.75rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.12em;
+    letter-spacing: -0.025em;
     text-transform: uppercase;
     transition: all 0.3s ease;
     background-color: var(--accent-gold);
@@ -158,12 +161,13 @@
   .btn-outline-dark {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     padding: 0.875rem 1.75rem;
     font-size: 0.75rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.12em;
+    letter-spacing: -0.025em;
     text-transform: uppercase;
     transition: all 0.3s ease;
     background-color: transparent;

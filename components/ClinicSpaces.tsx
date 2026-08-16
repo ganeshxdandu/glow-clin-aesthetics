@@ -20,7 +20,7 @@ export default function ClinicSpaces() {
                 >
                     <p className="section-label mb-5">The Clinic</p>
                     <div className="divider-gold mb-8" />
-                    <div className="flex justify-between">
+                    <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 lg:gap-12">
                         <h2 className="section-title max-w-lg">
                             A space designed
                             <br />
@@ -34,7 +34,7 @@ export default function ClinicSpaces() {
                             </em>
                         </h2>
                         <p
-                            className="mt-6 max-w-md text-base leading-relaxed"
+                            className="max-w-md text-base leading-relaxed lg:text-right"
                             style={{
                                 color: "var(--text-muted)",
                                 fontFamily: "'DM Sans', sans-serif",

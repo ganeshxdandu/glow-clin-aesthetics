@@ -159,11 +159,11 @@ export default function Services() {
                 href="https://wa.me/916363114579?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20your%20treatments%20at%20Glow%20Clin%20Aesthetic"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-xs font-medium tracking-wide uppercase mt-2 transition-all duration-300 group-hover:gap-3"
+                className="inline-flex items-center gap-2 text-xs font-medium tracking-tight uppercase mt-2 transition-all duration-300 group-hover:gap-3"
                 style={{
                   color: service.accent,
                   fontFamily: "'DM Sans', sans-serif",
-                  letterSpacing: "0.12em",
+                  letterSpacing: "-0.025em",
                 }}
               >
                 Enquire <ArrowRight size={13} />
