@@ -66,7 +66,7 @@ export default function Footer() {
               className="text-xs leading-relaxed"
               style={{ color: "rgba(250, 247, 244, 0.35)", fontFamily: "'DM Sans', sans-serif" }}
             >
-              Skin care & aesthetic clinic
+              Skin Care & Aesthetic Clinic
               <br />
               Kumaraswamy Layout, Bengaluru
             </p>
