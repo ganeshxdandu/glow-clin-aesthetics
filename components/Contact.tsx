@@ -107,13 +107,13 @@ export default function Contact() {
             style={{ border: "1px solid var(--border)" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8978297987067!2d77.5648284!3d12.9094881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15bae68aba2d%3A0x5a5fd53a1b21c55d!2sGlow%20Clin%20Aesthetic!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991154.2609275903!2d75.12586665624995!3d12.909446200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae157d2c9d02e1%3A0x6fd1a8ec0205a3d0!2sGlow%20Clin%20Aesthetic!5e0!3m2!1sen!2sin!4v1786848685167!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, filter: "grayscale(20%) contrast(1.05)" }}
               allowFullScreen={false}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
               title="Glow Clin Aesthetic location map"
             />
           </motion.div>
