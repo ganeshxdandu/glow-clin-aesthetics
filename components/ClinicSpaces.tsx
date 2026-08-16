@@ -79,11 +79,10 @@ export default function ClinicSpaces() {
                             }}
                         >
                             <span
-                                className="text-xs tracking-widest uppercase"
+                                className="text-xs uppercase"
                                 style={{
                                     color: "rgba(232, 200, 122, 0.85)",
                                     fontFamily: "'DM Sans', sans-serif",
-                                    letterSpacing: "0.18em",
                                 }}
                             >
                                 Reception
@@ -120,11 +119,11 @@ export default function ClinicSpaces() {
                             }}
                         >
                             <span
-                                className="text-xs tracking-widest uppercase"
+                                className="text-xs uppercase"
                                 style={{
                                     color: "rgba(232, 200, 122, 0.8)",
                                     fontFamily: "'DM Sans', sans-serif",
-                                    letterSpacing: "0.18em",
+                                    // letterSpacing: "0.18em",
                                 }}
                             >
                                 Waiting Lounge
@@ -161,11 +160,10 @@ export default function ClinicSpaces() {
                             }}
                         >
                             <span
-                                className="text-xs tracking-widest uppercase"
+                                className="text-xs uppercase"
                                 style={{
                                     color: "rgba(232, 200, 122, 0.8)",
                                     fontFamily: "'DM Sans', sans-serif",
-                                    letterSpacing: "0.18em",
                                 }}
                             >
                                 Consultation Room
@@ -202,11 +200,10 @@ export default function ClinicSpaces() {
                             }}
                         >
                             <span
-                                className="text-xs tracking-widest uppercase"
+                                className="text-xs uppercase"
                                 style={{
                                     color: "rgba(232, 200, 122, 0.8)",
                                     fontFamily: "'DM Sans', sans-serif",
-                                    letterSpacing: "0.18em",
                                 }}
                             >
                                 Treatment Suite
